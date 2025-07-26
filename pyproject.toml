@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-ritual = "ritual:main"
+ritual = "ritual_cli:main"
 
 [build-system]
 requires = ["setuptools", "wheel"]
