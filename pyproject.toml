@@ -1,0 +1,21 @@
+[project]
+name = "ritual"
+version = "0.1.1"
+description = "Cryptographic signing and verification CLI using PGPy for RitualMesh."
+authors = [{ name = "Victor Jose Corral", email = "victorjcorral@icloud.com" }]
+license = { text = "Metal Snake License (TBA)" }
+requires-python = ">=3.7"
+
+dependencies = [
+    "pgpy>=0.6.0",
+    "requests",
+    "cryptography"
+]
+
+[project.scripts]
+ritual = "ritual_cli:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
