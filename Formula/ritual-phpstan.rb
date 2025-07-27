@@ -2,7 +2,7 @@ class RitualPhpstan < Formula
   desc "Ritual-enhanced PHPStan static analysis with auto-ignore patches"
   homepage "https://github.com/GeneXisD/ritualmesh"
   url "https://github.com/phpstan/phpstan/archive/1.10.62.tar.gz"
-  sha256 "e8c601e45262b0575bfc91c44188e28b823c6a6b8c5698eaaef67d3157762d02"
+  sha256 "6f9225e71b5a23ff2a48b88c2243a023e6edce3066f826a7e779ecea06602b2c"
   license "MIT"
 
   depends_on "php"
